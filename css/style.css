@@ -3,6 +3,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background: #fff;
+  width: 1440px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -133,11 +134,45 @@ span {
   width: 1158px;
   display: flex;
   margin: auto;
-  padding-left: ;
-  padding-right: ;
   margin-left: 168px;
   margin-right: 144px;
 }
 img {
   display: block;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+  padding-top: 120px;
+}
+.our-team-images {
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  gap: 24px;
+}
+.our-team-container {
+  width: 1440px;
+  background: #f4f4fd;
+  height: 732px;
+}
+.portfolio-image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0 auto;
+}
+.portfolio-image img {
+  width: 360px;
+  height: 300px;
+}
+footer {
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42;
 }
