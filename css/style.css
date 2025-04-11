@@ -4,143 +4,157 @@ body {
   line-height: 1.5;
   background: #fff;
   width: 1440px;
-}
-.logo {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  margin-right: 76px;
-}
-.page-nav {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  gap: 40px;
-  margin-right: 332px;
-}
-.page-header {
-  display: flex;
-}
-.contacts {
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: #434455;
-  display: flex;
-  gap: 40px;
-}
-.main-page-title {
-  font-weight: 700;
-  font-size: 56px;
 
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-  padding-top: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
-}
-.main-page-container {
-  background: #2e2f42;
-  width: 1440px;
-  height: 600px;
-}
-.button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-  text-align: center;
-  cursor: pointer;
-}
-.main-page-button {
-  padding-left: 636px;
-  padding-right: 635px;
-  padding-top: 48px;
-  padding-bottom: 188px;
-}
-.our-properties-title {
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.our-properties-descr {
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.our-properties {
-  padding-top: 112px;
-  display: flex;
-}
-.our-team-title {
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-.our-team-images {
-  background: url("path_to_image");
-}
-.image-title {
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.image-descr {
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.button:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #404bbf;
-}
-.page-nav a:hover {
-  color: #404bbf;
-}
-.page-nav-first:active {
-  text-decoration: underline;
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-}
-a {
-  text-decoration: none;
-}
-ul {
-  list-style: none;
-}
-span {
-  color: #4d5ae5;
-}
-.contacts a:hover,
-.contacts:focus {
-  color: #404bbf;
-}
-.page-footer {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-.container {
-  width: 1158px;
-  display: flex;
-  margin: auto;
-  margin-left: 168px;
-  margin-right: 144px;
-}
-img {
-  display: block;
-}
-h2 {
+  /* Base style */
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  img {
+    display: block;
+    margin-bottom: 32px;
+  }
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+  }
+  section {
+    margin-bottom: 120px;
+  }
+
+  .logo {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    margin-right: 76px;
+  }
+  .page-nav {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+    margin-right: 332px;
+  }
+  .page-header {
+    display: flex;
+  }
+  .contacts {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #434455;
+    display: flex;
+    gap: 40px;
+  }
+  .main-page-title {
+    font-weight: 700;
+    font-size: 56px;
+
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    padding-top: 188px;
+    padding-left: 472px;
+    padding-right: 472px;
+  }
+  .main-page-container {
+    background: #2e2f42;
+    width: 1440px;
+    height: 600px;
+  }
+  .button {
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    text-align: center;
+    cursor: pointer;
+  }
+  .main-page-button {
+    padding-left: 636px;
+    padding-right: 635px;
+    padding-top: 48px;
+    padding-bottom: 188px;
+  }
+  .our-properties-title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .our-properties-descr {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .our-properties {
+    padding-top: 112px;
+    display: flex;
+  }
+
+  .our-team-images {
+    background: url("path_to_image");
+  }
+  .image-title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8;
+    text-align: center;
+  }
+  .image-descr {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+  }
+    
+  .button:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #404bbf;
+  }
+  .page-nav a:hover {
+    color: #404bbf;
+  }
+  .page-nav-first:active {
+    text-decoration: underline;
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+  }
+
+  span {
+    color: #4d5ae5;
+  }
+  .contacts a:hover,
+  .contacts:focus {
+    color: #404bbf;
+  }
+  .page-footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .container {
+    width: 1158px;
+    display: flex;
+    margin: auto;
+    margin-left: 168px;
+    margin-right: 144px;
+  }
+
+.our-team-title,
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -175,4 +189,13 @@ footer {
   width: 1440px;
   height: 312px;
   background: #2e2f42;
+}
+.our-team-images p {
+  text-align: center;
+}
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
