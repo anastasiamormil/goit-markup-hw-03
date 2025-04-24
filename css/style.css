@@ -273,7 +273,7 @@ p {
 .portfolio-images {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24зч;
+  column-gap: 24px;
   row-gap: 48px;
   justify-content: flex-start;
   padding: 0;
