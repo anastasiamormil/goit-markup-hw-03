@@ -316,13 +316,6 @@ p {
   color: #f4f4fd;
 }
 
-.page-footer {
-  text-align: start;
-  display: flex;
-  flex-direction: column;
-  min-height: 5vh;
-  width: 264px;
-}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
