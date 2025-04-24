@@ -173,7 +173,7 @@ p {
   letter-spacing: 0.04em;
   color: #fff;
   display: block;
-  min-width: 169px;
+  width: 169px;
   height: 56px;
   border: none;
   background-color: #4d5ae5;
@@ -286,7 +286,7 @@ p {
   margin-bottom: 0;
 }
 .portfolio-image-box {
-  width: ((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-caption-box {
