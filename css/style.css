@@ -84,6 +84,8 @@ p {
 .page-header-nav {
   display: flex;
   padding: 24px 156px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .page-header {
@@ -177,13 +179,6 @@ p {
   background-color: #4d5ae5;
 }
 
-.main-page-button {
-  padding-left: 636px;
-  padding-right: 635px;
-  padding-top: 48px;
-  padding-bottom: 188px;
-}
-
 .button:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
@@ -253,6 +248,7 @@ p {
 .our-team-section {
   width: 1440px;
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-image-box {
@@ -277,7 +273,7 @@ p {
 .portfolio-images {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 48px;
+  column-gap: 24зч;
   row-gap: 48px;
   justify-content: flex-start;
   padding: 0;
@@ -290,7 +286,7 @@ p {
   margin-bottom: 0;
 }
 .portfolio-image-box {
-  width: calc((100% -48) / 3);
+  width: ((100% - 48px) / 3);
 }
 
 .portfolio-caption-box {
@@ -314,6 +310,7 @@ p {
 .footer-paragraph {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .page-footer-span {
   color: #f4f4fd;
