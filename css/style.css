@@ -67,7 +67,6 @@ p {
 }
 .container {
   width: 1158px;
-  display: flex;
   box-sizing: content-box;
   gap: 24px;
   display: flex;
