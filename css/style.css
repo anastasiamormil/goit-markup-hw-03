@@ -71,6 +71,7 @@ p {
   gap: 24px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
 
 /* Components / Blocks */
@@ -102,6 +103,7 @@ p {
 }
 .page-nav-first {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .contacts {
