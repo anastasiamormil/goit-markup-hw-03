@@ -15,11 +15,7 @@ ul {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
   background: #fff;
-  max-width: 1440px;
-  margin: auto;
 }
 
 main {
@@ -41,10 +37,16 @@ h3 {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 p {
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #434455;
 }
 
@@ -67,25 +69,17 @@ p {
 }
 .container {
   width: 1158px;
-  box-sizing: content-box;
-  gap: 24px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 0 15px;
 }
 
 /* Components / Blocks */
 
 /* Header */
-
 .page-header-nav {
-  margin: 0 auto;
   display: flex;
+  margin-right: 332px;
 }
-
 .page-header {
-  display: flex;
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .page-header-menu {
@@ -93,13 +87,13 @@ p {
   padding: 0;
   margin: 0;
   gap: 40px;
-  margin-right: 332px;
   display: flex;
   letter-spacing: 0.02em;
 }
 .page-nav {
   display: flex;
   align-items: center;
+  margin-right: 30%;
 }
 .page-nav-first {
   color: #2e2f42;
@@ -213,11 +207,6 @@ p {
 .our-properties-box {
   width: calc((100% - 72px) / 4);
 }
-.our-properties-descr {
-  font-weight: 400;
-  font-size: 16px;
-  color: #434455;
-}
 
 /*Our Team Section  */
 
@@ -258,8 +247,7 @@ p {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   border-radius: 0 0 4px 4px;
-  width: 264px;
-  height: 380px;
+
   width: calc((100% - 72px) / 4);
 }
 .our-team-caption-box {
@@ -310,9 +298,12 @@ p {
 }
 
 .footer-paragraph {
-  color: #f4f4fd;
+  font-size: 16px;
   letter-spacing: 0.02em;
+  line-height: 1, 5;
+  color: #f4f4fd;
   max-width: 264px;
+  text-align: start;
 }
 .page-footer-span {
   color: #f4f4fd;
