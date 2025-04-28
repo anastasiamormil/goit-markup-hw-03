@@ -66,6 +66,7 @@ p {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+  max-width: 1440px;
 }
 .container {
   width: 1158px;
@@ -77,7 +78,6 @@ p {
 /* Header */
 .page-header-nav {
   display: flex;
-  margin-right: 332px;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -137,6 +137,7 @@ p {
 .main-page-container {
   background: #2e2f42;
   padding: 188px 0;
+  max-width: 1440px;
 }
 
 .main-page-title {
