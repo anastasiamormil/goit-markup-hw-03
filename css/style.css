@@ -67,10 +67,12 @@ p {
   padding-top: 120px;
   padding-bottom: 120px;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .container {
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* Components / Blocks */
@@ -84,7 +86,6 @@ p {
 }
 .page-header-menu {
   font-weight: 500;
-  padding: 24px 0;
   margin: 0;
   gap: 40px;
   display: flex;
@@ -97,6 +98,8 @@ p {
 }
 .page-nav-first {
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 
 .contacts {
@@ -137,7 +140,6 @@ p {
 .main-page-container {
   background: #2e2f42;
   padding: 188px 0;
-  max-width: 1440px;
 }
 
 .main-page-title {
