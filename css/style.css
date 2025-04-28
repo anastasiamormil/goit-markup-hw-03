@@ -46,7 +46,7 @@ p {
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #434455;
 }
 
@@ -264,6 +264,9 @@ p {
 .portfolio-image-title {
   text-align: start;
   margin-bottom: 8px;
+}
+.portfolio-image-descr {
+  text-align: start;
 }
 .portfolio-images {
   display: flex;
