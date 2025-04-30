@@ -33,23 +33,6 @@ p {
   margin: 0;
 }
 
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  color: #2e2f42;
-  line-height: 1, 2;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 0.02em;
-
-  color: #434455;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -68,9 +51,9 @@ p {
   padding-bottom: 120px;
 }
 .container {
-  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  width: 1158px;
 }
 
 /* Components / Blocks */
@@ -78,6 +61,7 @@ p {
 /* Header */
 .page-header-nav {
   display: flex;
+  align-items: center;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -92,14 +76,12 @@ p {
 .page-nav {
   display: flex;
   align-items: center;
-  margin-right: 30%;
+  margin-right: auto;
 }
 .page-nav-first {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
-}
-.nav-address {
 }
 
 .contacts {
@@ -202,9 +184,14 @@ p {
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: start;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .our-properties-descr {
-  text-align: start;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .our-properties-container {
   display: flex;
@@ -218,10 +205,19 @@ p {
 
 .image-descr {
   text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .image-title {
   text-align: center;
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .main-title {
@@ -243,7 +239,6 @@ p {
 }
 
 .our-team-section {
-  width: 1440px;
   background: #f4f4fd;
   padding: 120px 0;
 }
@@ -263,11 +258,18 @@ p {
 /* Portfolio Section  */
 
 .portfolio-image-title {
-  text-align: start;
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .portfolio-image-descr {
-  text-align: start;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .portfolio-images {
   display: flex;
@@ -302,18 +304,15 @@ p {
 
 .page-footer {
   background: #2e2f42;
-
   padding: 100px 0;
-  max-width: 1440px;
 }
 
 .footer-paragraph {
   font-size: 16px;
   letter-spacing: 0.02em;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: #f4f4fd;
   max-width: 264px;
-  text-align: start;
 }
 .page-footer-span {
   color: #f4f4fd;
